@@ -1,7 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-// import AuthContext from "../../context/AuthProvider";
-// import Counter from "../Counter/Counter";
-import "./VocabularyForm.css";
+
 import VocabularyDrill from "./VocabularyDrill";
 import AuthContext from "../../context/AuthProvider";
 

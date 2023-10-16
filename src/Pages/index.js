@@ -1,0 +1,10 @@
+export { default as Vocabulary } from "./Vocabulary";
+export { default as Conjugation } from "./Conjugation";
+export { default as Translation } from "./Translation";
+export { default as Subjunctive } from "./GrammarPages/Subjunctive";
+export { default as Future } from "./GrammarPages/Future";
+export { default as Past } from "./GrammarPages/Past";
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as Reading } from "./Reading";
+export { default as User } from "./User";

@@ -1,0 +1,125 @@
+body {
+  margin: 4rem;
+}
+
+.pages {
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.23);
+  margin: 0 -3px;
+  padding: 0 3px;
+}
+
+.pages2 {
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.23);
+  margin: 0 -6px;
+  padding: 0 6px;
+}
+
+#book {
+  display: flex;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.23);
+
+  .page {
+    flex: 1;
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+    .page-header {
+      flex: 1;
+      font-family: Lato;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: darken(lightgray, 8%);
+      text-align: center;
+      height: 72px;
+      padding-top: 2rem;
+    }
+
+    .page-body {
+      min-height: 720px;
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-align: center;
+        font-family: Lato;
+        font-weight: bold;
+      }
+
+      h1 {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        padding-top: 1.25rem;
+        padding-bottom: 4rem;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 1rem;
+        padding-top: 3rem;
+        margin: 0;
+      }
+
+      h1 + p {
+        &:first-letter {
+          float: left;
+          font-size: 75px;
+          line-height: 60px;
+          padding-top: 0;
+          padding-right: 4px;
+          padding-left: 0;
+        }
+      }
+
+      p {
+        font-size: 1.125rem;
+        font-family: "Georgia";
+        letter-spacing: 0.5px;
+        text-align: justify;
+        line-height: 1.7;
+        margin: 0;
+        padding-top: 1.5rem;
+      }
+    }
+
+    .page-footer {
+      height: 72px;
+      line-height: 72px;
+      text-align: center;
+      font-family: Lato;
+      font-size: 0.75rem;
+      color: darken(lightgray, 8%);
+    }
+  }
+
+  .page-left {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 85%,
+      rgba(239, 239, 239, 0.75) 100%
+    );
+  }
+
+  .page-right {
+    background: linear-gradient(
+      to right,
+      rgba(239, 239, 239, 1) 0%,
+      rgba(247, 247, 247, 0.7) 10%,
+      rgba(248, 248, 248, 0.25) 25%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #book.page-right {
+    display: block;
+  }
+}

@@ -103,27 +103,6 @@ const VocabularyForm = () => {
             </button>
           </div>
         </div>
-
-        {/* Removed until user info re-added */}
-        {/* <div className="userDataVocabulary">
-          {userData.vocabularyCount ? (
-            <Counter
-              title="Words Learnt So Far"
-              value={userData.vocabularyCount.length}
-            />
-          ) : (
-            ""
-          )}
-          <div className="wordlist">
-            {userData.vocabularyCount &&
-              userData.vocabularyCount.map((word, i) => (
-                <React.Fragment key={i}>
-                  <span className={i}>{word}</span>
-                  <br className="gap" />
-                </React.Fragment>
-              ))}
-          </div>
-        </div> */}
       </div>
     </div>
   );

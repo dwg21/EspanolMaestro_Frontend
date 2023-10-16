@@ -5,7 +5,7 @@ axios.defaults.withCredentials = true;
 // for local hosting : baseURL: "http://localhost:3005/",
 
 const ServerApi = axios.create({
-  baseURL: "http://www.server.espanolmaestro.com/",
+  baseURL: "https://www.server.espanolmaestro.com/",
   withCredentials: true,
 });
 

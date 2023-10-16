@@ -19,4 +19,4 @@ Sample User Account: Click Guest access in login section.
     Translation between English and Spanish
     Vocabulary excercise, a flashcard game to reinforce the memory of new vocabulary
     Conjugation excercise, a flashcard game to reinforce, practice, and teach the Conjugation of verbs
-    Story excercise, a reading excercise to reinforce reading skills and learn new vocabulary
+    Readeing Tool, a reading tool to reinforce reading skills and learn new vocabulary. Translate new words whislt reading and save them to     revise later.

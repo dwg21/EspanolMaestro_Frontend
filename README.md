@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Español Maestro
 
-Currently, two official plugins are available:
+Español Maestro is a concept project for a language web app that helps you learn Spanish through the use of several intelligent exercises.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View backend : https://github.com/dwg21/EspanolMaestro_Sever
+
+## Demo
+
+video walkthrough:https://www.youtube.com/watch?v=QbH5pMR8_kg
+**New Features have been updated since**
+
+Live Link : https://espanolmaestro.com
+
+Sample User Account: Click Guest access in login section.
+
+
+## Features
+    Translation between English and Spanish
+    Vocabulary excercise, a flashcard game to reinforce the memory of new vocabulary
+    Conjugation excercise, a flashcard game to reinforce, practice, and teach the Conjugation of verbs
+    Readeing Tool, a reading tool to reinforce reading skills and learn new vocabulary. Translate new words whislt reading and save them to     revise later.
